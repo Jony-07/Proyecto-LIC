@@ -1,0 +1,58 @@
+.presentacion{
+    background-image: url(https://tecnoibar.cl/wp-content/uploads/2019/11/shutterstock_734872009.jpg);
+    height: 500px;
+    text-align: center;
+}
+
+#title
+{ 
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 0.493);
+
+    position: relative;
+    top: 150px;
+}
+
+#Softwareid
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+#Hardwareid
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#content
+{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.container section:hover{
+    background: whitesmoke;
+}
+.container aside:hover{
+    background: whitesmoke;
+    
+}
+
+#cuerpo
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+#footer
+{
+    color: white;
+    background-image: url(https://tecnoibar.cl/wp-content/uploads/2019/11/shutterstock_734872009.jpg);
+  text-align: center;
+}
+#bg{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.63);
+}
