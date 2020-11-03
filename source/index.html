@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://www.flaticon.es/svg/static/icons/svg/1835/1835942.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Desk</title>
     <!-- CSS -->
@@ -11,17 +15,15 @@
 <body>
     <div id="sideNavigation" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Home</a>
-        <a href="#">Suport</a>
-        <a href="#">Contact Us</a>
-        <a href="#" class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proyectos</a>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="developers.html">Developers</a>
+        <a href="suports.html" class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suports</a>
         <ul class="dropdown-menu" id="submenu" >
-            <li><a href="#" class="dropdown-item">Software<span class="icon-dot"></span></a></li>
-            <li><a href="#" class="dropdown-item">Hardware<span class="icon-dot"></span></a></li>
+            <li><a href="software.html" class="dropdown-item">Software<span class="icon-dot"></span></a></li>
+            <li><a href="hardware.html" class="dropdown-item">Hardware<span class="icon-dot"></span></a></li>
           
-        </ul>
-     
-        
+        </ul>       
       </div>
        
       <nav class="topnav">
@@ -33,7 +35,7 @@
           </svg>
         </a>
       </nav>
-       
+        <!-- Contenido -->
       <div id="main" >
           <div class="presentacion">
               <h1 id="title">Soporte técnico <br> Conoce nuestros servicios</h1>
@@ -44,15 +46,15 @@
                
                 <section id="Softwareid" class="col-md-6"> <legend>Soporte Software</legend> 
                     <img src="https://www.flaticon.es/svg/static/icons/svg/2811/2811180.svg" alt="software" width="200" height="200"> <br>
-                    <button type="button" class="btn btn-outline-dark btn-block" id="idnext">Acceder</button>
+                    <a href="software.html"  class="btn btn-outline-dark btn-block" id="idnext">Acceder</a>
                 </section>
                 <aside id="Hardwareid" class="col-md-6"><legend>Soporte Hardware</legend>
                 <img src="https://www.flaticon.es/svg/static/icons/svg/2432/2432746.svg" alt="hardware" dth="200" height="200"> <br>
-                <button type="button" class="btn btn-outline-dark btn-block" id="idnext">Acceder</button>
+                <a  href="hardware.html" class="btn btn-outline-dark btn-block" id="idnext">Acceder</a>
             </aside>
 
             <section id="cuerpo" class="col-md-12">
-                <legend>¿Por qué es importante el soporte técnico para Software y Hardware?</legend>
+                <legend id="legend">¿Por qué es importante el soporte técnico para Software y Hardware?</legend>
                 <p>La principal ventaja que nos ofrece un buen soporte técnico para el software de nuestra empresa es la fiabilidad de su funcionamiento y correcto uso, permitiéndonos explotar todas las potenciales aplicaciones que nos ofrece. Un software desactualizado, la ausencia de formación, un mal equipo informático para darle uso… pueden minar su funcionamiento y restarle potencia y utilidad. De esta manera, un soporte técnico integral para software también opera como un mecanismo de ahorro de costes, tanto de reparación como internos derivados del mal funcionamiento de lo que constituye un eje central de nuestro negocio.
                          <br>
                     Nuestro personal técnico está en un continuo plan de formación, reciclaje y certificación, ya sea en plataforma Microsoft como en plataforma Apple. Estamos a la vanguardia de las nuevas aplicaciones para ofrecer siempre la mejor respuesta.
@@ -61,12 +63,33 @@
             </p>
 
             </section>
+            <aside class="col-md-12" id="asidecontent">
+                <legend id="legend">Mantenimiento preventivo y mantenimiento correctivo</legend>
+               <p>
+                Tanto el mantenimiento preventivo como el mantenimiento correctivo cuentan con distintas ventajas e inconvenientes que te resumimos a continuación. Desde Sotesa recomendamos el mantenimiento preventivo como mejor opción para garantizar un funcionamiento óptimo de tu sistema, sin sorpresas ni fallos que puedan costarte tiempo y dinero.
+               </p>
+
+               <h6 id="subtitle">Mantenimiento correctivo </h6>
+<p>
+    Éste consiste en el conjunto de tareas que se realizan para reparar un problema en el momento en que surge. Normalmente se trata de actualizaciones, problemas internos del software ya instalado… Esta fórmula supone un trabajo puntual una vez que surge la complicación, pero su coste puede resultar más elevado que un mantenimiento preventivo teniendo en cuenta que, debido al fallo o error, puede pararse la actividad de la empresa, ralentizarse, perderse información… Muchas averías suponen un tiempo de reparación elevado, en función del tipo de complicación.
+    <br> <br>
+Se trata de evitar llegar a este punto mediante el mantenimiento preventivo, dados los costes que puede suponer un fallo mayor (pérdidas de producción, deficiencias en la calidad, tiempos muertos y pérdida de ganancias). Sin embargo en ocasiones es irremediable tener abordar los problemas en el momento en que surgen y darles una solución inmediata.
+</p>
+              
+
+<h6 id="subtitle">Mantenimiento preventivo</h6>
+
+<p>Es la fórmula más utilizada. Supone inspecciones constantes y periódicas para corregir disfunciones y mantener siempre tu sistema a punto, evitando fallos mayores y parones de actividad. Supone una inversión constante pero de menor carga económica que una reparación puntual de gran calado. Básicamente, siempre es mejor evitar la enfermedad que paliarla una vez que se presenta: con el mantenimiento preventivo estaremos protegiendo nuestro software y equipos de cualquier mal, evitando su ‘enfermedad’.
+    <br> <br>
+    En Sotesa, este servicio incluye la revisión del estado físico de los equipos y servidores, así como el de la instalación del sistema operativo, de copia de seguridad, comprobación de antivirus, soporte telefónico o remoto e informes mensuales. Ello permite mejorar la productividad hasta en 25%, reducir en un 30% los costos de mantenimiento y alargar la vida útil de la maquinaria y equipo hasta en un 50%.</p>
+
+            </aside>
             </div>
             
           </div>
           <div class="row">
             <div class="col-md-12" id="footer">
-                <div id="bg"> <span>Copyright 2020 | Developed by Jony López</span></div>
+                <div id="bg"> <span>Copyright 2020 | Developed by Jony López, Abigail Saravia</span></div>
         
             </div>
         </div>

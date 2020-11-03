@@ -7,7 +7,7 @@
 #title
 { 
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     background: rgba(0, 0, 0, 0.493);
 
@@ -17,16 +17,17 @@
 
 #Softwareid
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
    text-align: center;
 }
 #Hardwareid
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;
 }
 #content
 {
+    font-family: 'Fjalla One', sans-serif;
    padding-top: 30px;
    padding-bottom: 30px;
 }
@@ -40,8 +41,13 @@
 
 #cuerpo
 {
+    font-family: 'Open Sans', sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: justify;
+}
+#asidecontent{
+    font-family: 'Open Sans', sans-serif;
     text-align: justify;
 }
 #footer
@@ -51,8 +57,15 @@
   text-align: center;
 }
 #bg{
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
     background: rgba(0, 0, 0, 0.63);
+}
+#legend{
+    font-family: 'Open Sans', sans-serif;
+}
+#subtitle{
+    color: rgb(7, 7, 109);
+    font-weight: bold;
 }
