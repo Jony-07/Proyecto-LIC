@@ -1,0 +1,138 @@
+.presentacion{
+    background-image: url(https://institutobaikal.com/wp-content/uploads/2020/09/Introducci%C3%B3n-a-la-programaci%C3%B3n.png);
+    height: 400px;
+    
+     padding: 0;
+}
+
+#title
+{ 
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 0.493);
+
+    position: relative;
+    top: 150px;
+}
+
+#title2{
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(19, 17, 17);
+    background: rgba(0, 0, 0, 0.493);
+    text-align: center;
+    position: relative;
+    top: 150px;
+    
+
+}
+
+
+#Softwareid
+{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+     
+}
+#Hardwareid
+{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    
+}
+#content
+{
+    font-family: 'Fjalla One', sans-serif;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   top: 56px;
+}
+.container section:hover{
+    background: whitesmoke;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+
+
+#members{
+     
+   padding-bottom: 5em;
+   position: relative;
+   text-align: center;
+   display: inline-block;
+   margin: 0;
+   border: 1pxs;
+
+}
+
+#members1{
+    padding-bottom: 5em;
+   position: relative;
+   text-align: center;
+   display: inline-block;
+
+}
+
+#members2{
+    padding-bottom: 5em;
+   position: relative;
+   text-align: center;
+   display: inline-block;
+}
+
+
+#cuerpo
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+#asidecontent{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+#footer
+{
+    color: white;
+    background-image: url(https://tecnoibar.cl/wp-content/uploads/2019/11/shutterstock_734872009.jpg);
+    text-align: center;
+}
+#bg{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.63);
+}
+#legend{
+    font-family: 'Open Sans', sans-serif;
+}
+#subtitle{
+    color: rgb(7, 7, 109);
+    font-weight: bold;
+}
+
+
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article{
+    margin: 15px;
+
+}
+
+#blog img{
+    width: 100%;
+    max-width: 280px;
+}
