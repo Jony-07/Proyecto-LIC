@@ -128,10 +128,7 @@
 }
 
 @media (min-width: 700px){
-    body{
-        padding:  0 4em;
-
-    }
+   
 
     .Contact-wrapper{
         display:grid;
