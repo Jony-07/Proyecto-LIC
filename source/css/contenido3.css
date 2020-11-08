@@ -10,10 +10,10 @@ div h1
     font-family: 'Fjalla One', sans-serif;
 }
 
-.soport1{
-    float: left;
-    width: 25%;
-}
+    .soport1 {
+      float: left;
+      width: 25%;
+  }
 .par1{
     text-align: center;
     font-style:italic; 
@@ -22,6 +22,19 @@ div h1
     color: #222;
 }
 
+.butt {
+        
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .soport2{
     float: right;
     width: 40%;
