@@ -1,2 +1,2 @@
-# helpdesk_project
-Proyecto de cátedra
+# Information
+Proyecto de cátedra HelpDesk
